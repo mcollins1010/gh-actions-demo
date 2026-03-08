@@ -5,6 +5,12 @@ jobs:
     runs-on: macos-latest
     steps:
       - name: Print reading
-        run: echo "Hello world"
+        run: |
+            echo "Hello world"
+            echo "Hello Toronto"
+            echo "Learning is good"
+            echo "je sui un Champion"
       - name: Print goodbye
-        run: echo "Goodbye"
+        run: |
+            echo "Goodbye"
+            echo "from The Engineer"
